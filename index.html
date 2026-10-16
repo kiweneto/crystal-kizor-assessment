@@ -98,7 +98,7 @@
 
     <section class="contact" id="contact"><div class="wrap contact-grid"><div><div class="eyebrow">Every good collaboration starts somewhere</div><h2>What could we make possible?</h2><p>Have a project, speaking invitation, partnership idea or question about the work? Choose a starting point and begin the conversation.</p></div><a class="button" id="emailLink" href="mailto:hello@crystalkizor.com?subject=An%20idea%20to%20discuss">Start a conversation <span><svg class="ui-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></a></div></section>
   </main>
-  <footer class="footer wrap"><a class="brand" href="#home">CRYSTAL KIZOR<span>Space · Product · Systems</span></a><div>Thoughtfully connected. Purposefully built.</div><div class="footer-links"><a href="#about">Perspective</a><a href="#work">Initiatives</a><a href="#contact">Contact</a></div></footer>
+  <footer class="footer wrap"><a class="brand" href="#home">CRYSTAL KIZOR<span>Space · Product · Systems</span></a><div>Thoughtfully connected. Purposefully built.</div><div class="footer-links"><a href="#about">Perspective</a><a href="#work">Initiatives</a><a href="#contact" onclick="event.preventDefault(); document.getElementById('contact').scrollIntoView({behavior: 'smooth', block: 'start'}); history.replaceState(null, '', '#contact');">Contact</a></div></footer>
   <script>
     const menuButton=document.getElementById('menuButton');
     const navLinks=document.getElementById('navLinks');
