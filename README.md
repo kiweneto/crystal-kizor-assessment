@@ -1,30 +1,62 @@
-# Crystal Kizor — Stage 1 Assessment
+# Crystal Kizor — Web Developer Stage 1 Assessment
 
-A mobile-first, single-page personal-brand landing page built with semantic HTML, CSS and vanilla JavaScript. It intentionally uses no build step, package manager or framework so it can be edited and deployed from a phone.
+A responsive, single-page landing experience that presents Crystal Kizor’s seven initiatives as a connected ecosystem while giving each initiative a clear purpose and visitor pathway.
 
-## Features
-- Responsive editorial design and mobile navigation
-- Clear hierarchy across all seven initiatives in the assessment brief
-- Audience pathways to help visitors find a relevant next step
-- Interactive initiative filters
-- Contact links that prefill an enquiry subject
-- Semantic landmarks, keyboard focus styles, alt text and reduced-motion support
-- Lazy loading for secondary imagery
+## Overview
 
-## Run and deploy from a phone
-1. Download and unzip this project.
-2. Open GitHub in your phone browser and create a **public** repository named `crystal-kizor-assessment`.
-3. Choose **Add file → Upload files** and upload `index.html`, `README.md`, and the `submission` folder. (If your phone's file picker cannot upload a folder, upload the documents inside it individually.)
-4. Commit the upload.
-5. For a live link using GitHub Pages: open repository **Settings → Pages**, select **Deploy from a branch**, choose `main` and `/ (root)`, then Save. Wait for the published URL.
-6. Alternatively, sign in to Vercel, choose **Add New → Project**, import the GitHub repository, keep the framework preset as **Other**, set build command and output directory to blank/default, then deploy. Since `index.html` is at the root, no build is required.
+The page uses an editorial visual direction, a clear content hierarchy, responsive layouts, and lightweight interactions to help visitors explore the work and identify a relevant next step.
 
-## Important before submission
-- This is a concept implementation based on the assessment brief. Replace the generic image choices with the supplied professional photos/logos if available.
-- Confirm the correct official contact email and official social/brand URLs before publishing. The `hello@crystalkizor.com` address is a placeholder, not a verified contact.
-- Add verified project links where available. Do not present invented projects, testimonials, metrics or credentials as facts.
-- The supplied reference website is inspiration only; this implementation uses its own layout and copy.
-- Test the deployed link on your phone, including menu, filters, links and image loading.
+## Key features
 
-## Technology choice
-A single static HTML page with custom CSS and vanilla JavaScript avoids mobile build friction and reduces deployment risk. For this assessment, fast loading, responsive design, clear content hierarchy and understandable source code matter more than using a framework solely for its name.
+- Responsive layout for desktop and mobile screens
+- Navigation with a mobile menu
+- Overview of all seven initiatives from the assessment brief
+- Interactive filters for browsing initiatives by theme
+- Clear calls to action and enquiry pathways
+- Animated practice-area ticker with reduced-motion support
+- Semantic HTML, accessible focus states, and descriptive image text
+- Lightweight implementation with no build step or external JavaScript framework
+
+## Technology stack
+
+- **HTML5** for semantic structure and content
+- **CSS3** for layout, responsive behaviour, typography, and visual styling
+- **Vanilla JavaScript** for navigation and initiative-filter interactions
+- **Google Fonts** for typography
+- **Vercel** for deployment
+
+The implementation keeps the page lightweight and straightforward to maintain. Given the single-page scope of this assessment, a framework was not necessary to deliver the required layout and interactions.
+
+## Project structure
+
+```text
+crystal-kizor-assessment/
+├── index.html
+├── README.md
+├── PART-1-DESIGN-NOTE.md
+├── PART-2-AI-PRODUCT-THINKING.md
+├── PART-3-ANALYTICS.md
+└── submission/
+    ├── part-1-design-note.md
+    ├── part-2-ai-product-thinking.md
+    └── part-3-analytics.md
+```
+
+## Run locally
+
+Open `index.html` in a modern browser. No package installation or compilation is required.
+
+## Deployment
+
+The project is deployed on Vercel and linked to its GitHub repository. Updates committed to the connected deployment branch can trigger a new deployment automatically.
+
+## Before public launch
+
+- Verify that all supplied image links are accessible to visitors.
+- Replace the placeholder contact email with a confirmed address.
+- Add official initiative links only after they have been verified.
+- Test the navigation, filters, contact pathway, and responsive layout on common screen sizes.
+
+## Assessment notes
+
+The design brings the seven initiatives together under a consistent personal-brand experience while preserving distinct categories and next steps for visitors. The accompanying Part 1, Part 2, and Part 3 documents provide the design rationale, AI product proposal, and analytics approach requested in the assessment.
